@@ -80,7 +80,12 @@ function App() {
   const open = Boolean(anchorEl);
 
   return (
-    <Box display="flex" flexDirection="column" justifyContent="center">
+    <Box
+      display="flex"
+      flexDirection="column"
+      justifyContent="center"
+      height="100%"
+    >
       <Box
         className="App"
         width={"90%"}
